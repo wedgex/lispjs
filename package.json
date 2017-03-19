@@ -4,17 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --require babel-polyfill --compilers js:babel-register **/*.test.js --watch"
+    "test": "mocha --require babel-polyfill --compilers js:babel-register **/*.test.js --watch",
+    "repl": "babel-node bin/repl"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "babel-cli": "^6.23.0",
+    "babel-cli": "^6.24.0",
     "babel-polyfill": "^6.23.0",
     "babel-preset-latest": "^6.22.0",
     "babel-register": "^6.23.0",
     "chai": "^3.5.0",
     "mocha": "^3.2.0",
-    "sinon": "^2.0.0",
+    "sinon": "^2.0.0"
   }
 }
