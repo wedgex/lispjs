@@ -12,7 +12,7 @@ function toString(exp) {
 
 function repl() {
   console.log('lisp.js repl')
-  const env = { ...standardEnv }
+  const env = standardEnv()
   const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
