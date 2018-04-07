@@ -75,6 +75,4 @@ describe('Math', () => {
       expect(run('(= 1 2)')).to.be.false
     })
   })
-
-
 })
