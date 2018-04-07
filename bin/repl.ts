@@ -1,4 +1,4 @@
-import readline from 'readline'
+import * as readline from 'readline'
 import run from '../lib/run'
 import standardEnv from '../lib/standardEnv'
 
