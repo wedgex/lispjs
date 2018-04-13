@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --require babel-polyfill --compilers js:babel-register **/*.test.js --watch",
+    "test":
+      "mocha --require babel-polyfill --compilers js:babel-register **/*.test.js",
     "repl": "babel-node bin/repl"
   },
   "author": "",
